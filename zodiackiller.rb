@@ -1,6 +1,6 @@
 #we need to build a cipher, decode is randomly generated
 ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-DECODE = "e0POTx7VmWqGSiLuk9Jh8K5RoQdnEvgDACB4wlF3r6spbIjyctN2aMZH1zYXfU"
+DECODE   = "e0POTx7VmWqGSiLuk9Jh8K5RoQdnEvgDACB4wlF3r6spbIjyctN2aMZH1zYXfU"
 
 #functions to do the stuffs, .tr legit just "translates" one "letter" at a time. so a turns into e, so on
 def encode(text)
@@ -29,4 +29,4 @@ answera = gets.chomp.downcase
 end
 
 
-#does this even need a hash? suppose you could put every letter in a hash 
+#does this even need a array? suppose you could put every letter in a array, then shuffle it, then map it blah blah
