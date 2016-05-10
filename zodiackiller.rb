@@ -2,7 +2,7 @@
 ALPHABET = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 DECODE = "e0POTx7VmWqGSiLuk9Jh8K5RoQdnEvgDACB4wlF3r6spbIjyctN2aMZH1zYXfU"
 
-#functions to do the stuffs
+#functions to do the stuffs, .tr legit just "translates" one "letter" at a time. so a turns into e, so on
 def encode(text)
     return text.tr(ALPHABET, DECODE)
 end
