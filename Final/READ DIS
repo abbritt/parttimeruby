@@ -1,4 +1,4 @@
-this will allow compliance to transform our hawaii data into a really stupid format that hawaii likes. prevents \
+this will allow compliance to transform our hawaii data into a really stupid format that hawaii likes. prevents
 having to manually upload like 3k contributions.
 
 1) run the sql pull
