@@ -1,8 +1,0 @@
-this will allow compliance to transform our hawaii data into a really stupid format that hawaii likes. prevents
-having to manually upload like 3k contributions.
-
-1) run the sql pull
-2) save the edited names file as a csv. our data is butts and the names file is butts2
-3) run the columns script to insert columns that hawaii needs for its template
-
-email britt 4 stuff

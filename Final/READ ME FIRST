@@ -1,0 +1,9 @@
+this will allow compliance to transform our hawaii data into a really stupid format that hawaii likes. prevents
+having to manually upload like 3k contributions.
+
+1) pull for hawaii contributor data from our system. save as hawaii_data
+2) Go to hawaii's upload website and download their names table. save as hawaii_names.csv
+  -the hawaii_names files must only have the first name of the contributor and their hawaii id. delete other columns before proceeding
+3) run the columns script to match and insert columns that hawaii needs for its template. 
+
+
